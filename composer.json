@@ -21,7 +21,7 @@
         "cweagans/composer-patches": "^1.6.5",
         "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/address": "^1.6",
-        "drupal/admin_toolbar": "^1.27",
+        "drupal/admin_toolbar": "^2.0",
         "drupal/allowed_formats": "^1.1",
         "drupal/anchor_link": "^1.6",
         "drupal/apply_for_role": "^1.0@alpha",
