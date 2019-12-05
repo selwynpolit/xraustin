@@ -1,19 +1,19 @@
-uuid: 9f0b6a74-942e-4d45-bb49-4465fd5881c5
+uuid: bfa25ffc-1721-47fe-9035-0d09cc3f7c83
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - system.menu.footer
   module:
     - system
   theme:
-    - bartik
+    - adaptivesub
 _core:
-  default_config_hash: 8zRjTNbfNAJ94lQpZDu6MkyD87GYJ2zpH9VQPVmRbcM
-id: bartik_footer
-theme: bartik
-region: footer_fifth
-weight: -7
+  default_config_hash: OXDvolzgbKWmFlGVKPz-B80d6uFdxUl-pvsDEYzcsq8
+id: adaptivesub_footer
+theme: adaptivesub
+region: footer
+weight: 0
 provider: null
 plugin: 'system_menu_block:footer'
 settings:

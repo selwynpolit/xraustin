@@ -1,0 +1,13 @@
+palette:
+  base: '#089de3'
+  text: '#777777'
+  link: '#089de3'
+logo: 'public://color/adaptivesub-f1784ba5/logo.svg'
+stylesheets:
+  - 'public://color/adaptivesub-f1784ba5/color.css'
+  - 'public://color/adaptivesub-f1784ba5/tabs.css'
+files:
+  - 'public://color/adaptivesub-f1784ba5/logo.svg'
+  - 'public://color/adaptivesub-f1784ba5/logo.png'
+  - 'public://color/adaptivesub-f1784ba5/color.css'
+  - 'public://color/adaptivesub-f1784ba5/tabs.css'

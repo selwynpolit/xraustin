@@ -1,0 +1,22 @@
+uuid: 1d8444be-1b3c-4241-8a5b-cd901f9e6842
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - adaptivesub
+_core:
+  default_config_hash: J6YPSyf4BuC_AlEsL5h-yapJ0yYEMZ2OJquj9YNimLQ
+id: adaptivesub_login
+theme: adaptivesub
+region: sidebar_second
+weight: 20
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: visible
+visibility: {  }

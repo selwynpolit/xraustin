@@ -1,0 +1,20 @@
+uuid: 99bbb257-1ecc-460a-9e14-43dc09da16c3
+langcode: en
+status: true
+dependencies:
+  theme:
+    - adaptivesub
+_core:
+  default_config_hash: eSTIhazNBXXC52RknaP-pryiVvTIgDYSxVec11DEF58
+id: adaptivesub_local_actions
+theme: adaptivesub
+region: content
+weight: 3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,27 @@
+uuid: 6b621c9b-5987-4c9d-819b-a62d91d2966e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - adaptivesub
+_core:
+  default_config_hash: 56WPF1goVJ9gaGpCVV9cJfjsSif9UdpVxoYF8qZgG9A
+id: adaptivesub_account_menu
+theme: adaptivesub
+region: leaderboard
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 09ea9174-626e-42fb-b608-a7a5e5091d61
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.meeting_notes
+id: node.meeting_notes.promote
+field_name: promote
+entity_type: node
+bundle: meeting_notes
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,27 @@
+uuid: f3546af6-0738-44f6-b9a2-96fb44b0a530
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - adaptivesub
+_core:
+  default_config_hash: mn1MPaZjglAJJI-JoZ6zRvq4BxMyWpUoYYSPw4e_W9A
+id: adaptivesub_page_title
+theme: adaptivesub
+region: content
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "/node/*\r\n/user/*\r\n<front>"
+    negate: true
+    context_mapping: {  }

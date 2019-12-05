@@ -1,0 +1,14 @@
+uuid: 09619f17-2a85-48e6-a67a-128c9385b3f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.approved_member
+  module:
+    - user
+id: user_add_role_action.approved_member
+label: 'Add the Approved member role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: approved_member

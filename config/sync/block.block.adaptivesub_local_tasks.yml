@@ -1,0 +1,22 @@
+uuid: 78afc492-e276-4de3-bb11-b45e2102c417
+langcode: en
+status: true
+dependencies:
+  theme:
+    - adaptivesub
+_core:
+  default_config_hash: 4zmpZmeG4peYL7UIGNrRLdR_cqvPMSL0HHkxG0Q9KxQ
+id: adaptivesub_local_tasks
+theme: adaptivesub
+region: content
+weight: 1
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

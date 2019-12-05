@@ -1,0 +1,31 @@
+uuid: 25cb669d-84c6-4ebb-b7b4-af70eef03fb6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_committee
+    - node.type.meeting_notes
+    - taxonomy.vocabulary.committee
+    - taxonomy.vocabulary.tags
+id: node.meeting_notes.field_committee
+field_name: field_committee
+entity_type: node
+bundle: meeting_notes
+label: Committee
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      committee: committee
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: committee
+field_type: entity_reference

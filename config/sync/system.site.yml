@@ -1,11 +1,11 @@
 uuid: 94f283fb-1934-45ae-82ac-6cfe4a6dbcbf
-name: XR
+name: 'XR Austin'
 mail: website@xr
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /node/107
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en

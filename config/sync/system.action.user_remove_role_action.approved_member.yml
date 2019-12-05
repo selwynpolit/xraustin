@@ -1,0 +1,14 @@
+uuid: eb07dc6e-f8b0-4f25-a991-c167957d62d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.approved_member
+  module:
+    - user
+id: user_remove_role_action.approved_member
+label: 'Remove the Approved member role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: approved_member

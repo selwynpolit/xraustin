@@ -1,0 +1,30 @@
+uuid: df8b56df-24b2-4e9c-b83c-873767b745da
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.meeting_notes.body
+    - node.type.meeting_notes
+  module:
+    - text
+    - user
+id: node.meeting_notes.teaser
+targetEntityType: node
+bundle: meeting_notes
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

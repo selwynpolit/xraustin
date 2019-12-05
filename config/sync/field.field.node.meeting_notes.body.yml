@@ -1,0 +1,22 @@
+uuid: 335b1db0-cb3c-4fc5-9e6f-8a09afb4a7aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.meeting_notes
+  module:
+    - text
+id: node.meeting_notes.body
+field_name: body
+entity_type: node
+bundle: meeting_notes
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

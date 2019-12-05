@@ -1,0 +1,27 @@
+uuid: a114b589-0e76-496f-b936-255c570f48e0
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - adaptivesub
+_core:
+  default_config_hash: GgX1vUTIGk7tBtWsn_IHFqNTE8Z7vX0Kua0BgIhbgIQ
+id: adaptivesub_breadcrumbs
+theme: adaptivesub
+region: content_prefix
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

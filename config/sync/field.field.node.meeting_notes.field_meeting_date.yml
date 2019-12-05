@@ -1,0 +1,21 @@
+uuid: c3720f5f-423b-486c-ab63-2f9fb5197091
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_meeting_date
+    - node.type.meeting_notes
+  module:
+    - datetime
+id: node.meeting_notes.field_meeting_date
+field_name: field_meeting_date
+entity_type: node
+bundle: meeting_notes
+label: 'Meeting Date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

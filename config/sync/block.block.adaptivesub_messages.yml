@@ -1,0 +1,22 @@
+uuid: b7b63fc6-484c-4a48-8c7e-c46429af06ab
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - adaptivesub
+_core:
+  default_config_hash: dOVC01jhtYddLRwn8bdpH57SUg32TN5QeJE31LQfqB4
+id: adaptivesub_messages
+theme: adaptivesub
+region: highlighted
+weight: -100
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

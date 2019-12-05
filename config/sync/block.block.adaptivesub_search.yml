@@ -1,0 +1,22 @@
+uuid: bb335d17-0135-4261-8c35-b03111e1bde3
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - adaptivesub
+_core:
+  default_config_hash: uc8xP44xROTYQ3gFY4A9QKryA0GijJS_u87XGAdhc7U
+id: adaptivesub_search
+theme: adaptivesub
+region: sidebar_second
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: '0'
+visibility: {  }

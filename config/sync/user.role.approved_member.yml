@@ -1,0 +1,17 @@
+uuid: 631c41c8-6945-4566-bd41-24811958289f
+langcode: en
+status: true
+dependencies: {  }
+id: approved_member
+label: 'Approved member'
+weight: 3
+is_admin: null
+permissions:
+  - 'create meeting_notes content'
+  - 'delete any meeting_notes content'
+  - 'delete meeting_notes revisions'
+  - 'edit any meeting_notes content'
+  - 'edit own meeting_notes content'
+  - 'revert meeting_notes revisions'
+  - 'use text format basic_html'
+  - 'view meeting_notes revisions'

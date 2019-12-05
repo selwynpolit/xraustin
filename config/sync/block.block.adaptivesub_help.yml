@@ -1,0 +1,22 @@
+uuid: fee7ae69-abeb-435e-8c98-f58702960dde
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - adaptivesub
+_core:
+  default_config_hash: x1fLlXTvrgnYQaoiP_py25v1nBMg5HNNnxUOKv4s10I
+id: adaptivesub_help
+theme: adaptivesub
+region: content
+weight: 2
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

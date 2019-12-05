@@ -1,0 +1,22 @@
+uuid: 1a64ff98-9c5f-4223-94f2-e9a1884511b4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - adaptivesub
+_core:
+  default_config_hash: jnlOZzrU2ADIGrpD54T7R6zTONQSpDNGMZNlbD1kuVs
+id: adaptivesub_content
+theme: adaptivesub
+region: content
+weight: 4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }
