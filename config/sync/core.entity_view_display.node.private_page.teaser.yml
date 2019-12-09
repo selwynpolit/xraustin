@@ -1,0 +1,34 @@
+uuid: de98b6b6-a761-4036-97ac-9bbe3090997c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.private_page.body
+    - field.field.node.private_page.field_committee
+    - field.field.node.private_page.field_tags
+    - node.type.private_page
+  module:
+    - text
+    - user
+id: node.private_page.teaser
+targetEntityType: node
+bundle: private_page
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_committee: true
+  field_tags: true

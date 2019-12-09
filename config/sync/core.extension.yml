@@ -25,6 +25,7 @@ module:
   devel_generate: 0
   dynamic_page_cache: 0
   editor: 0
+  entity_clone: 0
   entity_reference: 0
   field: 0
   field_ui: 0
@@ -35,6 +36,8 @@ module:
   image: 0
   link: 0
   masquerade: 0
+  media: 0
+  media_library: 0
   menu_trail_by_path: 0
   menu_ui: 0
   metatag: 0
@@ -43,6 +46,8 @@ module:
   options: 0
   page_cache: 0
   path: 0
+  path_alias: 0
+  permissions_by_term: 0
   quickedit: 0
   rdf: 0
   save_edit: 0

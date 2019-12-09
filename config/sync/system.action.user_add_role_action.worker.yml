@@ -1,0 +1,14 @@
+uuid: 148a9603-222b-4006-a25e-d34d0acd30d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.worker
+  module:
+    - user
+id: user_add_role_action.worker
+label: 'Add the Worker role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: worker

@@ -1,0 +1,20 @@
+uuid: b31fdc3e-e08b-48bb-a2bf-3fb02b0710ae
+langcode: en
+status: true
+dependencies:
+  module:
+    - masquerade
+  theme:
+    - adaptivesub
+id: masquerade_2
+theme: adaptivesub
+region: header_first
+weight: 0
+provider: null
+plugin: masquerade
+settings:
+  id: masquerade
+  label: Masquerade
+  provider: masquerade
+  label_display: visible
+visibility: {  }

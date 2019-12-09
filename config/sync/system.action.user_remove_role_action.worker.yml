@@ -1,0 +1,14 @@
+uuid: 6e9e0a97-9418-48c1-945b-7514f9ee03dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.worker
+  module:
+    - user
+id: user_remove_role_action.worker
+label: 'Remove the Worker role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: worker

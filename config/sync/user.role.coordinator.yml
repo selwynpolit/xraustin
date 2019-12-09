@@ -1,0 +1,9 @@
+uuid: 8e80ebf5-66e4-4b05-ab59-97b8eb67f8de
+langcode: en
+status: true
+dependencies: {  }
+id: coordinator
+label: Coordinator
+weight: 4
+is_admin: null
+permissions: {  }

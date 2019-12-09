@@ -19,6 +19,8 @@ settings:
           items:
             - Bold
             - Italic
+            - Underline
+            - HorizontalRule
         -
           name: Linking
           items:
@@ -34,6 +36,7 @@ settings:
           items:
             - Blockquote
             - DrupalImage
+            - Embed
         -
           name: 'Block Formatting'
           items:
@@ -42,6 +45,23 @@ settings:
           name: Tools
           items:
             - Source
+            - PasteText
+            - Table
+            - '-'
+            - Maximize
+            - '-'
+        -
+          name: Undo
+          items:
+            - Undo
+            - Redo
+        -
+          name: Justify
+          items:
+            - JustifyLeft
+            - JustifyCenter
+            - JustifyRight
+            - JustifyBlock
   plugins:
     stylescombo:
       styles: ''

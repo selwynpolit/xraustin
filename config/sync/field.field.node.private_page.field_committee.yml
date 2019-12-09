@@ -1,0 +1,29 @@
+uuid: a3323bb5-bdf5-4e01-a2f2-6d5ce9658389
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_committee
+    - node.type.private_page
+    - taxonomy.vocabulary.committee
+id: node.private_page.field_committee
+field_name: field_committee
+entity_type: node
+bundle: private_page
+label: Committee
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      committee: committee
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
